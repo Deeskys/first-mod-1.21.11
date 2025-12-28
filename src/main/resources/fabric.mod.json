@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "first-mod",
+	"version": "${version}",
+	"name": "First Mod",
+	"description": "This is my first ever mod!",
+	"authors": [
+		"Deeskys!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/first-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.deeskys.firstmod.FirstMod"
+		],
+		"fabric-datagen": [
+			"net.deeskys.firstmod.FirstModDataGenerator"
+		],
+		"client": [
+			"net.deeskys.firstmod.FirstModClient"
+		]
+	},
+	"mixins": [
+		"first-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
