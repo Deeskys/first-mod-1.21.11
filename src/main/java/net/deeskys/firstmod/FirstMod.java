@@ -1,5 +1,6 @@
 package net.deeskys.firstmod;
 
+import net.deeskys.firstmod.block.ModBlocks;
 import net.deeskys.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class FirstMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

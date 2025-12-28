@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet");
-
+    public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet");
 
     private static Item registerItem(String name) {
         Identifier id = Identifier.of(FirstMod.MOD_ID, name);
@@ -27,6 +27,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);
+            entries.add(RAW_PINK_GARNET);
         });
     }
 }

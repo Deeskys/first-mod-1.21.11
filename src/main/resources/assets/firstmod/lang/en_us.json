@@ -1,3 +1,6 @@
 {
-  "item.firstmod.pink_garnet": "Pink Garnet"
+  "item.firstmod.pink_garnet": "Pink Garnet",
+  "item.firstmod.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.firstmod.pink_garnet_block": "block of Pink Garnet"
 }
